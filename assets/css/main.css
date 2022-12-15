@@ -36,7 +36,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	color: black;
 	  
 }
 
@@ -107,7 +106,6 @@ input, select, textarea {
 
 	body {
 		background: #A49665;
-		color: #A49665;
 		
 	}
 
@@ -2363,78 +2361,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-			
-		.image {
-		border-radius: 0.25em;
-		border: 0;
-		display: inline-block;
-		position: relative;
-		}
-
 		
-
-		.image img {
-			border-radius: 0.25em;
-			display: block;
-		}
-
-		
-
-		.image.left, .image.right {
-			max-width: 40%;
-		}
-
-		
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-			
-
-		.image.left {
-			float: left;
-			margin: 0 1.5em 1em 0;
-			top: 0.25em;
-		}
-
-		
-
-		.image.right {
-			float: right;
-			margin: 0 0 1em 1.5em;
-			top: 0.25em;
-		}
-
-
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
-
-		
-
-			.image.fit img {
-				width: 100%;
-			}
-
-			
-		.image.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-		}
-
-		
-
-
-			.image.main img {
-				width: 100%;
-			}
-
-			
-
 
 
 
@@ -2821,7 +2748,7 @@ input, select, textarea {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		max-height: 22.5em;
+		min-height: 22.5em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -2848,52 +2775,7 @@ input, select, textarea {
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
 				background: rgba(255, 255, 255, 0.9);
-				content: '';
-				display: block;
-				height: 100%;
-				left: 0;
-				opacity: 0;
-				position: absolute;
-				top: 0;
-				width: 100%;
-			}
-
-
-			
-
-
-		.spotlights > section > .image {
-			background-position: center center;
-			background-size: cover;
-			border-radius: 0;
-			display: block;
-			position: relative;
-			width: 25em;
-		}
-
-
-		
-
-		
-
-		
-	
-		
-
-			.spotlights > section > .image img {
-				border-radius: 0;
-				display: block;
-			}
-
-			
-
-
-			.spotlights > section > .image:before {
-				-moz-transition: opacity 1s ease;
-				-webkit-transition: opacity 1s ease;
-				-ms-transition: opacity 1s ease;
-				transition: opacity 1s ease;
-				background: rgba(255, 255, 255, 0.9);
+				
 				content: '';
 				display: block;
 				height: 100%;
@@ -2961,25 +2843,7 @@ input, select, textarea {
 			.spotlights > section > .content {
 				padding: 4em 4em 2em 4em ;
 			}
-			.spotlights> section> .content1 {
-				position: relative; /* child absolute */
-				margin: 0 ;
-				/* add back section padding value */
-				padding: .2rem .2rem .20rem .20rem;
-				background: #A49665;
-				background: #A49665;
-				color: #A49665;
-  			}
-		}
-
-		.content1 {
-			position: relative; /* child absolute */
-			margin: 0 ;
-			/* add back section padding value */
-			padding: .2rem .2rem .20rem .20rem;
-			background: #A49665;
-			background: #A49665;
-			color: #A49665;
+		
 		  }
 
 		@media screen and (max-width: 980px) {
@@ -2992,10 +2856,7 @@ input, select, textarea {
 					width: 100%;
 					height: 50vh;
 				}
-				.spotlights > section > .image1 {
-					width: 100%;
-					height: 50vh;
-				}
+				
 
 				.spotlights > section > .content {
 					width: 100%;
@@ -3017,10 +2878,7 @@ input, select, textarea {
 				height: 50vh;
 				min-height: 15em;
 			}
-			.spotlights > section > .image1 {
-				height: 50vh;
-				min-height: 15em;
-			}
+			
 		
 			.spotlights > section > .content {
 				padding: 3em 2em 1em 2em ;
