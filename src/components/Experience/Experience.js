@@ -5,9 +5,9 @@ import Particle from "../Particle";
 
 
 
-import Ido from "../../Assets/Experience/Stat.svg";
-import One from "../../Assets/Experience/Siemens.svg"
-import HomeFarm from "../../Assets/Experience/SAS.svg";
+import SAS from "../../Assets/Experience/SAS.svg";
+import Siemens from "../../Assets/Experience/Siemens.svg"
+import Stat from "../../Assets/Experience/Stat.svg";
 
 
 function Experience() {
@@ -24,7 +24,7 @@ function Experience() {
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
               <Col md={4} className="project-card">
                 <ProjectCard
-                  imgPath={Ido}
+                  imgPath={SAS}
                   isBlog={false}
                   title="SAS"
                   description="Software Engineering Intern"
@@ -35,7 +35,7 @@ function Experience() {
     
               <Col md={4} className="project-card">
                 <ProjectCard
-                  imgPath={One}
+                  imgPath={Siemens}
                   isBlog={false}
                   title="Siemens Healthineers"
                   description="Software, Automation and Finance Intern"
@@ -45,7 +45,7 @@ function Experience() {
     
               <Col md={4} className="project-card">
                 <ProjectCard
-                  imgPath={HomeFarm}
+                  imgPath={Stat}
                   isBlog={false}
                   title="StatProg Inc"
                   description="Data Science Intern"
