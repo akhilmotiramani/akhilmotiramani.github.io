@@ -19,37 +19,14 @@ function Home2() {
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Thank you for visiting my Website. Feel free to explore and learn more about me!
- 
-              <br />
-              <br />I'm interested in software engineering, mobile development and creating change
-              <i>
-                <b className="blue"> C++, Javascript and Go. </b>
-              </i>
+            Thank you for visiting my website. Feel free to explore and learn more about me!
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="blue">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="blue">
-                  Blockchain.
-                </b>
-              </i>
+              I'm interested in software engineering, mobile development and creating change.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="blue">Node.js</b> and
-              <i>
-                <b className="blue">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="blue"> React.js and Next.js</b>
-              </i>
+              
+              You can connect with me via <a href="https://www.linkedin.com/in/akhilmotiramani" target="_blank" rel="noopener noreferrer"><b className="blue">LinkedIn</b></a> or <a href="mailto:akhil.motiramani@yahoo.com"><b className="blue">Email</b></a>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
