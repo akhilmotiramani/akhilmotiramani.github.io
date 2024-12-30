@@ -269,10 +269,11 @@ button:focus {
   z-index: -1;
   background-image: url(./Assets/background.png);
   background-position: top center;
-  background-size: 100% auto;
+  background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
+
 
 .home-content {
   padding: 9rem 0 2rem !important;
@@ -474,14 +475,23 @@ button:focus {
   box-shadow: 4px 4px 5px 3px rgba(30, 144, 255, 1) !important;
   color: white !important;
   background-color: transparent !important;
-  opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  opacity: 1;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 1) !important;
+}
+
+.project-card-view img {
+  filter: brightness(1.1) contrast(1); 
+  transition: all 0.5s ease; 
+}
+
+.project-card-view img:hover {
+  transform: scale(1.05); 
 }
 
 .blog-card {

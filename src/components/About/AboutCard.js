@@ -23,14 +23,15 @@ function AboutCard() {
         </div>
           
           <ul>
-            <li className="about-activity">
-              <FaRunning /> Running
-            </li>
+            
             <li className="about-activity">
               <FaHeadphones /> Djing
             </li>
             <li className="about-activity">
               <FaPlane /> Travelling
+            </li>
+            <li className="about-activity">
+              <FaRunning /> Running
             </li>
             <li className="about-activity">
               <FaLaptopCode /> Exploring new Technology

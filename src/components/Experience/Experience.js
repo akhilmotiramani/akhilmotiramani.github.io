@@ -5,9 +5,9 @@ import Particle from "../Particle";
 
 
 
-import SAS from "../../Assets/Experience/SAS.svg";
-import Siemens from "../../Assets/Experience/Siemens.svg"
-import Stat from "../../Assets/Experience/Stat.svg";
+import SAS from "../../Assets/Experience/SAS.png";
+import Siemens from "../../Assets/Experience/Siemens.png"
+import Stat from "../../Assets/Experience/Stat.png";
 
 
 function Experience() {
@@ -29,7 +29,6 @@ function Experience() {
                   title="SAS"
                   description="Software Engineering Intern"
                   info="May 2024 - Current"
-                  
                 />
               </Col>
     
