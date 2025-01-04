@@ -766,8 +766,17 @@ button:focus {
 
 
 
-.projects-description {
-  padding-top: 50px;
+.general-body-text{
+  padding-top: 10px;
   font-size: 1em !important;
   text-align: left;
+}
+
+
+
+.experience-title-text{
+  padding-top: 10px;
+  font-size: 1em !important;
+  text-align: left;
+
 }

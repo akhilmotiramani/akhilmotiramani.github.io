@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />
               
-              You can connect with me via <a href="https://www.linkedin.com/in/akhilmotiramani" target="_blank" rel="noopener noreferrer"><b className="blue">LinkedIn</b></a> or <a href="mailto:akhil.motiramani@yahoo.com"><b className="blue">Email</b></a>
+              You can reach me via <a href="tel:9198308527" className="blue"><b>919-830-8527</b></a>, <a href="mailto:akhil.motiramani@yahoo.com"><b className="blue">Email</b></a> or <a href="https://www.linkedin.com/in/akhilmotiramani" target="_blank" rel="noopener noreferrer"><b className="blue">LinkedIn</b></a>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -64,7 +64,7 @@ function Home2() {
               </li> */}
               <li className="social-icons">
                 <a
-                  href="www.linkedin.com/in/akhilmotiramani"
+                  href="https://www.linkedin.com/in/akhilmotiramani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

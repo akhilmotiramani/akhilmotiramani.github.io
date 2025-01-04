@@ -11,7 +11,9 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
+        <div className="experience-title-text">
           {props.description}
+          </div>
           </Card.Text>
           <Card.Text style={{ textAlign: "justify" }}>
           {props.info}
