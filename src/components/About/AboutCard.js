@@ -8,20 +8,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
         <div style={{ textAlign: "justify" }}>
-        <p>
-    From <span class="purple">Cary, North Carolina</span>
-  </p>
-  <p>
-    I am currently a student at UNC Chapel Hill, majoring in <span class="purple">Computer Science</span> with a minor in <span class="purple">Business Administration</span>
-  </p>
-  <p>
+      
+  <p className="home-about-body">
+  From <span class="purple">Cary, North Carolina</span>
+  <br/>
+  <br/>
+  I am currently a student at UNC Chapel Hill, majoring in <span class="purple">Computer Science</span> with a minor in <span class="purple">Business Administration</span>
+  <br/>
+  <br/>
     Passionate about creating full-stack applications that drive <span class="purple">meaningful</span> change and positively impact the community.
-  </p>
-  <p>
+    <br />
+    <br />
     Apart from coding, here are some other activities I love to do:
   </p>
-        </div>
-          
+          </div>
+  
           <ul>
             
             <li className="about-activity">
@@ -34,7 +35,7 @@ function AboutCard() {
               <FaRunning /> Running
             </li>
             <li className="about-activity">
-              <FaLaptopCode /> Exploring new Technology
+              <FaLaptopCode /> Exploring new Tech
             </li>
           </ul>
 

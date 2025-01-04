@@ -763,3 +763,11 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+
+.projects-description {
+  padding-top: 50px;
+  font-size: 1em !important;
+  text-align: left;
+}

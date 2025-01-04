@@ -11,8 +11,10 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
+        <div className="projects-description">
+  {props.description}
+</div>
+       </Card.Text>
 
         {/* Render GitHub button only if ghLink is provided */}
         {props.ghLink && (
