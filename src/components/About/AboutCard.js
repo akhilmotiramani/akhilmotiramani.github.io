@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { FaRunning, FaHeadphones, FaPlane, FaLaptopCode } from "react-icons/fa";
+import { FaRunning, FaHeadphones, FaPlane, FaLaptopCode, FaMoneyBill } from "react-icons/fa";
 
 function AboutCard() {
   return (
@@ -27,6 +27,9 @@ function AboutCard() {
             
             <li className="about-activity">
               <FaHeadphones /> Djing
+            </li>
+            <li className="about-activity">
+              <FaMoneyBill /> Finance
             </li>
             <li className="about-activity">
               <FaPlane /> Travelling
