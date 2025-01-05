@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import akhilImg from "../../Assets/akhilpfp.png";
 import Toolstack from "./Toolstack";
+import Tilt from "react-parallax-tilt";
 
 function About() {
   return (
@@ -31,8 +32,10 @@ function About() {
             style={{ paddingTop: "5px", paddingBottom: "50px" }}
             className="about-img"
           >
+            <Tilt>
 
   <img
+  
     src={akhilImg}
     alt="about"
     className="img-fluid"
@@ -42,6 +45,8 @@ function About() {
       display: "block", // Ensure it's centered
     }}
   />
+
+</Tilt>
 
           </Col>
         </Row>

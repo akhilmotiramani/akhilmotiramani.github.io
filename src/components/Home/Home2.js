@@ -25,8 +25,10 @@ function Home2() {
               I'm interested in software engineering, mobile development and creating change.
               <br />
               <br />
-              
               You can reach me via <a href="tel:9198308527" className="blue"><b>919-830-8527</b></a>, <a href="mailto:akhil.motiramani@yahoo.com"><b className="blue">Email</b></a> or <a href="https://www.linkedin.com/in/akhilmotiramani" target="_blank" rel="noopener noreferrer"><b className="blue">LinkedIn</b></a>
+              <br />
+              <br />
+              For my resume, please reach out!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -38,9 +40,9 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
+            {/* <p>
               Feel free to <span className="blue">connect </span>with me
-            </p>
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -80,7 +82,7 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
-                </a>
+                </a>o
               </li> */}
             </ul>
           </Col>

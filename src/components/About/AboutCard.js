@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { FaRunning, FaHeadphones, FaPlane, FaLaptopCode, FaMoneyBill } from "react-icons/fa";
+import { Container, Row, Col } from "react-bootstrap";
+
+
 
 function AboutCard() {
   return (
@@ -21,6 +24,7 @@ function AboutCard() {
     <br />
     Apart from coding, here are some other activities I love to do:
   </p>
+
           </div>
   
           <ul>
