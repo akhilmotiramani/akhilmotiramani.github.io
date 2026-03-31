@@ -5,6 +5,7 @@ import Particle from "../Particle";
 
 
 
+import AWS from "../../Assets/Experience/AWS.png";
 import SAS from "../../Assets/Experience/SAS.png";
 import Siemens from "../../Assets/Experience/Siemens.png"
 import Stat from "../../Assets/Experience/Stat.png";
@@ -24,11 +25,21 @@ function Experience() {
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
               <Col md={4} className="project-card">
                 <ProjectCard
+                  imgPath={AWS}
+                  isBlog={false}
+                  title="Amazon Web Services"
+                  description="Software Engineering Intern"
+                  info="May 2025 - Aug 2025"
+                />
+              </Col>
+    
+              <Col md={4} className="project-card">
+                <ProjectCard
                   imgPath={SAS}
                   isBlog={false}
                   title="SAS"
                   description="Software Engineering Intern"
-                  info="May 2024 - Current"
+                  info="May 2024 - May 2025"
                 />
               </Col>
     

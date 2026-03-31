@@ -19,7 +19,7 @@ function AboutCard() {
   I am currently a student at UNC Chapel Hill, majoring in <span class="purple">Computer Science</span> with a minor in <span class="purple">Business Administration</span>
   <br/>
   <br/>
-    Passionate about creating full-stack applications that drive <span class="purple">meaningful</span> change and positively impact the community.
+    Passionate about contributing to <span class="purple">reliable</span> and <span class="purple">high-performing</span> infrastructure.
     <br />
     <br />
     Apart from coding, here are some other activities I love to do:
